@@ -1,0 +1,9 @@
+nasm -f elf -o sum.o sum.asm
+gcc -m32 -o proc7.out proc7.c sum.o
+
+
+Links:
+//http://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html
+//http://www.delorie.com/djgpp/doc/ug/asm/calling.html
+//http://banisterfiend.wordpress.com/2008/08/15/calling-an-asm-function-from-c/
+
